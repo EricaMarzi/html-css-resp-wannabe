@@ -6,18 +6,55 @@
     }
 }
 
-/*
+/** Mobile 576px */ 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 576px) {
     .container {
-        width: 380px;
+        width: 470px;
     }
 
     .row {
         display: block;
     }
 
-    .col {
+    .lessons .col, .steps .col, .why-us .col {
         width: 100%;
     }
-}*/
+
+    .card {
+        margin-bottom: 70px;
+    }
+
+    .why-us {
+        background-color: #222222;
+    }
+
+    .steps {
+    margin: 0;
+    }
+
+    .why-us {
+        margin: 0;
+        padding: 3rem 0;
+    }
+
+    .col li, .why-us img {
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
