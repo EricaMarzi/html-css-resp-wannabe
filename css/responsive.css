@@ -1,0 +1,23 @@
+/** Tablet 768px*/
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 760px;
+    }
+}
+
+/*
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 380px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col {
+        width: 100%;
+    }
+}*/
