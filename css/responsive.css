@@ -8,18 +8,18 @@
 
 /** Tablet 768px*/
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     .container {
         max-width: 760px;
     }
-}
+} non serve avendo messo la max-widht al container*/
 
 /** Mobile 576px */ 
 
 @media screen and (max-width: 576px) {
-    .container {
+   /* .container {
         max-width: 470px;
-    }
+    } non serve avendo messo la max-widht al container*/
 
     .row {
         display: block;
